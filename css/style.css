@@ -1,3 +1,11 @@
+.color-footer-text {
+  color: red;
+}
+
+.navbar-default {
+  background-color: orange !important;
+}
+
 .color-primary {
   color: #575757;
 }
