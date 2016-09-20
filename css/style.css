@@ -18,6 +18,9 @@
 .biographie .text-center {
   text-align: center;
 }
+.biographie .button {
+  text-align: center;
+}
 
 .album {
   background-color: black;
