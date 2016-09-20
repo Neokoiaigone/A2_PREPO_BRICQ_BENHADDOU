@@ -13,7 +13,7 @@
   font-size: 140%;
 }
 .biographie .moove {
-  margin-left: 90px;
+  margin-left: 125px;
 }
 .biographie .text-center {
   text-align: center;
@@ -24,6 +24,21 @@
 }
 .album .color-text {
   color: orange;
+}
+.album .under2 {
+  float: left;
+}
+.album .title {
+  margin-right: 60px;
+  float: right;
+}
+.album .title2 {
+  float: left;
+  margin-left: 125px;
+  text-align: center;
+}
+.album .around {
+  clear: both;
 }
 
 .color-primary {
