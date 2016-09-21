@@ -1,0 +1,51 @@
+$width: 100%;
+$text-left: left;
+$text-center: center;
+$margin-left: 125px;
+$margin-right: 60px;
+$font-size: 140%;
+$backgroundblack: black;
+$color-text: orange;
+
+.biographie{
+    width: $width;
+    text-align: $text-left;
+    width: $width;
+    font-size: $font-size;
+        .moove{
+            margin-left: $margin-left;
+        } 
+    .text-center{
+        text-align: $text-center;
+    }
+    .button{
+        text-align: $text-center;
+    }
+}
+
+.album{
+    background-color: $backgroundblack;
+    .color-text{
+        color: $color-text;
+    }
+    .under2{
+        float: left;
+        
+    }
+    .title{
+        margin-right: $margin-right;
+        float: right;
+        
+    }
+    .title2{
+        float: left;
+        margin-left: $margin-left;
+        text-align: $text-center;
+    }
+    .around{
+        clear: both;
+    }
+}
+
+
+
