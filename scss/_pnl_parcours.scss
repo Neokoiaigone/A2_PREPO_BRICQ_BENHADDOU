@@ -9,22 +9,28 @@ $font-size: 140%;
 $backgroundblack: black;
 $backgroundwhite: white;
 $color-text: orange;
+$color-textblack: black;
 $font-sizetitre: 210px;
 
 
 body{
-    background: url(../images/fond.jpeg)no-repeat;
+    background: url(../images/fond.jpeg)no-repeat !important;
     background-size: cover;
 
 }
 
+.intro{
+    background: url(../images/fond.jpeg)no-repeat !important;
+    background-size: cover;
+}
+
 .titre{
     color: $color-text;
-    margin-bottom: 800px;
     font-size: $font-sizetitre;
 }
 
 .biographie{
+    color: $color-textblack;
     margin-bottom: $margin-bottom;
     background: $backgroundwhite; 
     width: $width;
