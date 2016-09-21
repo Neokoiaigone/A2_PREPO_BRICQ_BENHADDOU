@@ -1,26 +1,63 @@
+.color-footer-text {
+  color: red;
+}
 
-Backtrace:
-style.scss:3
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/scss/parser.rb:1179:in `expected'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/scss/parser.rb:1115:in `expected'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/scss/parser.rb:1110:in `tok!'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/scss/parser.rb:655:in `block'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/scss/parser.rb:649:in `ruleset'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/scss/parser.rb:674:in `block_child'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/scss/parser.rb:667:in `block_contents'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/scss/parser.rb:126:in `stylesheet'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/scss/parser.rb:42:in `parse'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/engine.rb:403:in `_to_tree'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/engine.rb:278:in `render'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:420:in `run'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.20/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Prepros/resources/app/ruby/loader.rb:15:in `load'
-C:/Program Files (x86)/Prepros/resources/app/ruby/loader.rb:15:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...r-primary: blue\": expected \"{\", was \";\"\A         on line 3 of style.scss\A \A 1: @import \"_index.scss\";\A 2: <<<<<<< HEAD\A 3: $color-primary: blue;\A 4: =======\A 5: @import \"_pnl_parcours.scss\";\A 6: \A 7: $color-primary: #575757;\A 8: >>>>>>> 5d4f207d6229d2e1a1800f2c2cc0727dfc55b551"; }
+.navbar-default {
+  background-color: orange !important;
+}
+
+body {
+  background: url(../images/fond.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.titre {
+  color: orange;
+  margin-bottom: 800px;
+  font-size: 210px;
+}
+
+.biographie {
+  margin-bottom: -20px;
+  background: white;
+  width: 100%;
+  text-align: left;
+  width: 100%;
+  font-size: 140%;
+}
+.biographie .moove {
+  margin-top: 50px;
+  margin-left: 125px;
+}
+.biographie .text-center {
+  text-align: center;
+}
+.biographie .button {
+  text-align: center;
+}
+
+.album {
+  background-color: black;
+}
+.album .color-text {
+  color: orange;
+}
+.album .under2 {
+  float: left;
+}
+.album .title {
+  margin-right: 60px;
+  float: right;
+}
+.album .title2 {
+  float: left;
+  margin-left: 125px;
+  text-align: center;
+}
+.album .around {
+  clear: both;
+}
+
+.color-primary {
+  color: blue;
+}
