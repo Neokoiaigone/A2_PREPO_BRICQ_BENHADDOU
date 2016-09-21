@@ -48,6 +48,7 @@ body{
     width: $width;
     font-size: $font-size;
         .moove{
+            border-radius: 50px;
             margin-top: $margin-top;
             margin-left: $margin-left;
         } 
@@ -95,4 +96,55 @@ body{
     .top{
         margin-top: $margin-top;
     }
+}
+
+a{
+     color:#ccc;
+     text-shadow:0 -1px 0 black;                
+}
+a:hover,a:focus{
+     background:rgba(0,0,0,.4);
+     box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
+
+a span{
+     position:absolute;                
+}
+
+a span{
+     
+     margin-top:23px;
+     margin-left:-35px;
+}
+
+a span{
+     
+     color: #09c;
+     background: rgba(0,0,0,.9);
+     padding: 15px;
+     border-radius: 3px;
+     box-shadow: 0 0 2px rgba(0,0,0,.5);
+}
+
+a span{
+     
+     transform:scale(0) rotate(-12deg);
+}
+
+a:hover span, a:focus span{
+     transform:scale(1) rotate(0);        
+}
+
+a span{
+     
+     transition:all .25s;
+}
+
+a span{
+     
+     opacity:0;
+}
+a:hover span, a:focus span{
+     
+     opacity:1;
 }
