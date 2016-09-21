@@ -25,6 +25,11 @@ body {
   padding: 0px !important;
 }
 
+.carousel {
+  background: black;
+  margin-top: -25px;
+}
+
 .titre {
   color: orange;
   font-size: 210px;

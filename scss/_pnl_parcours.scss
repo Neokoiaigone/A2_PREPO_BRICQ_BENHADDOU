@@ -29,6 +29,11 @@ body{
     padding: 0px !important;
 }
 
+.carousel{
+    background: $backgroundblack;
+    margin-top: -25px;
+}
+
 .titre{
     color: $color-text;
     font-size: $font-sizetitre;
