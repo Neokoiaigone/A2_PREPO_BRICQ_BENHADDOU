@@ -24,6 +24,11 @@ body{
     background-size: cover;
 }
 
+.navbar-custom{
+    background-color: $backgroundblack !important;
+    padding: 0px !important;
+}
+
 .titre{
     color: $color-text;
     font-size: $font-sizetitre;
@@ -42,6 +47,7 @@ body{
             margin-left: $margin-left;
         } 
     .text-center{
+        margin-top: $margin-top;
         text-align: $text-center;
     }
     .button{
@@ -63,13 +69,25 @@ body{
         float: right;
         
     }
+    .alboum{
+        margin-top: $margin-top;
+    }
+    
     .title2{
         float: left;
         margin-left: $margin-left;
         text-align: $text-center;
+        
     }
     .around{
         clear: both;
+    }
+}
+
+.clip{
+    color: $color-text;
+    .top{
+        margin-top: $margin-top;
     }
 }
 

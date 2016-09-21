@@ -16,6 +16,11 @@ body {
   background-size: cover;
 }
 
+.navbar-custom {
+  background-color: black !important;
+  padding: 0px !important;
+}
+
 .titre {
   color: orange;
   font-size: 210px;
@@ -35,6 +40,7 @@ body {
   margin-left: 125px;
 }
 .biographie .text-center {
+  margin-top: 50px;
   text-align: center;
 }
 .biographie .button {
@@ -54,6 +60,9 @@ body {
   margin-right: 60px;
   float: right;
 }
+.album .alboum {
+  margin-top: 50px;
+}
 .album .title2 {
   float: left;
   margin-left: 125px;
@@ -61,6 +70,13 @@ body {
 }
 .album .around {
   clear: both;
+}
+
+.clip {
+  color: orange;
+}
+.clip .top {
+  margin-top: 50px;
 }
 
 .color-primary {
