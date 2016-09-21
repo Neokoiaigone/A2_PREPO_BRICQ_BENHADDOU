@@ -7,17 +7,22 @@
 }
 
 body {
-  background: url(../images/fond.jpeg) no-repeat;
+  background: url(../images/fond.jpeg) no-repeat !important;
+  background-size: cover;
+}
+
+.intro {
+  background: url(../images/fond.jpeg) no-repeat !important;
   background-size: cover;
 }
 
 .titre {
   color: orange;
-  margin-bottom: 800px;
   font-size: 210px;
 }
 
 .biographie {
+  color: black;
   margin-bottom: -20px;
   background: white;
   width: 100%;
