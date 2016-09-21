@@ -6,6 +6,10 @@
   background-color: orange !important;
 }
 
+.intro {
+  background: url(../images/fond.jpeg) no-repeat !important;
+}
+
 body {
   background: url(../images/fond.jpeg) no-repeat !important;
   background-size: cover;
