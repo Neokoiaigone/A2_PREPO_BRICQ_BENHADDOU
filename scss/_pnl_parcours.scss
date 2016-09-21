@@ -7,6 +7,13 @@ $font-size: 140%;
 $backgroundblack: black;
 $color-text: orange;
 
+
+.body{
+    background-image: url(../images/fond.jpeg)no-repeat center center fixed !important;
+    background-size: cover;
+
+}
+
 .biographie{
     width: $width;
     text-align: $text-left;

@@ -6,6 +6,11 @@
   background-color: orange !important;
 }
 
+body {
+  background: url(../images/fond.jpeg) no-repeat center center fixed !important;
+  background-size: cover;
+}
+
 .biographie {
   width: 100%;
   text-align: left;
