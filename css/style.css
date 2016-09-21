@@ -7,17 +7,26 @@
 }
 
 body {
-  background: url(../images/fond.jpeg) no-repeat center center fixed !important;
+  background: url(../images/fond.jpeg) no-repeat;
   background-size: cover;
 }
 
+.titre {
+  color: orange;
+  margin-bottom: 800px;
+  font-size: 210px;
+}
+
 .biographie {
+  margin-bottom: -20px;
+  background: white;
   width: 100%;
   text-align: left;
   width: 100%;
   font-size: 140%;
 }
 .biographie .moove {
+  margin-top: 50px;
   margin-left: 125px;
 }
 .biographie .text-center {

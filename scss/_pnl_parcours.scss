@@ -3,23 +3,36 @@ $text-left: left;
 $text-center: center;
 $margin-left: 125px;
 $margin-right: 60px;
+$margin-bottom: -20px;
+$margin-top: 50px;
 $font-size: 140%;
 $backgroundblack: black;
+$backgroundwhite: white;
 $color-text: orange;
+$font-sizetitre: 210px;
 
 
-.body{
-    background-image: url(../images/fond.jpeg)no-repeat center center fixed !important;
+body{
+    background: url(../images/fond.jpeg)no-repeat;
     background-size: cover;
 
 }
 
+.titre{
+    color: $color-text;
+    margin-bottom: 800px;
+    font-size: $font-sizetitre;
+}
+
 .biographie{
+    margin-bottom: $margin-bottom;
+    background: $backgroundwhite; 
     width: $width;
     text-align: $text-left;
     width: $width;
     font-size: $font-size;
         .moove{
+            margin-top: $margin-top;
             margin-left: $margin-left;
         } 
     .text-center{
