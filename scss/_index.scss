@@ -1,5 +1,5 @@
 $color-footer-text: red;
-$background-footer-color: orange;
+$background-footer-color: #151515;
 
 
 .color-footer-text{
@@ -14,3 +14,6 @@ $background-footer-color: orange;
 	background: url(../images/fond.jpeg)no-repeat !important;
 }
 
+.navbar-default{
+	color: white;
+}
