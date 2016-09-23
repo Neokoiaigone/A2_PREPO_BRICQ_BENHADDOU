@@ -101,12 +101,12 @@ a span {
   position: absolute;
 }
 
-a span {
+a a span {
   margin-top: 23px;
   margin-left: -35px;
 }
 
-a span {
+a a span {
   color: #09c;
   background: rgba(0, 0, 0, 0.9);
   padding: 15px;
@@ -114,22 +114,22 @@ a span {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
-a span {
+a a span {
   transform: scale(0) rotate(-12deg);
 }
 
-a:hover span, a:focus span {
+a a:hover span, a a:focus span {
   transform: scale(1) rotate(0);
 }
 
-a span {
+a a span {
   transition: all .25s;
 }
 
-a span {
+a a span {
   opacity: 0;
 }
 
-a:hover span, a:focus span {
+a a:hover span, a a:focus span {
   opacity: 1;
 }

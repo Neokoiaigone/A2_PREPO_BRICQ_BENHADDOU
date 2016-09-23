@@ -103,51 +103,51 @@ body{
 a{
      color:#ccc;
      text-shadow:0 -1px 0 black;                
-}
-a:hover,a:focus{
+
+    &:hover,&:focus{
      background:rgba(0,0,0,.0);
      box-shadow:0 1px 0 rgba(255,255,255,.4);
-}
+    }
 
-a span{
+    & span{
      position:absolute;                
-}
+    }
 
-a span{
+    a span{
      
      margin-top:23px;
      margin-left:-35px;
-}
+    }
 
-a span{
+    a span{
      
      color: #09c;
      background: rgba(0,0,0,.9); //change le background du text
      padding: 15px;
      border-radius: 3px;
      box-shadow: 0 0 2px rgba(0,0,0,.5);
-}
+    }
 
-a span{
+    a span{
      
      transform:scale(0) rotate(-12deg);
-}
+    }
 
-a:hover span, a:focus span{
+    a:hover span, a:focus span{
      transform:scale(1) rotate(0);        
-}
+    }
 
-a span{
+    a span{
      
      transition:all .25s;
-}
+    }
 
-a span{
+    a span{
      
      opacity:0;
-}
-a:hover span, a:focus span{
+    }
+    a:hover span, a:focus span{
      
      opacity:1;
+    }
 }
-
