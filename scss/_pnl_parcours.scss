@@ -14,140 +14,148 @@ $font-sizetitre: 210px;
 $color-footer: grey;
 
 body{
-    background: url(../images/fond.jpeg)no-repeat !important;
-    background-size: cover;
+background: url(../images/fond.jpeg)no-repeat !important;
+background-size: cover;
 
 }
 
 .intro{
-    background: url(../images/fond.jpeg)no-repeat !important;
-    background-size: cover;
+background: url(../images/fond.jpeg)no-repeat !important;
+background-size: cover;
 }
 
 .navbar-custom{
-    background-color: $backgroundblack !important;
-    padding: 0px !important;
+background-color: $backgroundblack !important;
+padding: 0px !important;
 }
 
 .carousel{
-    background: $backgroundblack;
-    margin-top: -25px;
+background: $backgroundblack;
+margin-top: -25px;
 }
 
 .titre{
-    color: $color-text;
-    font-size: $font-sizetitre;
+color: $color-text;
+font-size: $font-sizetitre;
 }
 
 .biographie{
-    color: $color-textblack;
-    margin-bottom: $margin-bottom;
-    background: $backgroundwhite; 
-    width: $width;
-    text-align: $text-left;
-    width: $width;
-    font-size: $font-size;
-        .moove{
-            border-radius: 50px;
-            margin-top: $margin-top;
-            margin-left: $margin-left;
-        } 
-    .text-center{
-        margin-top: $margin-top;
-        text-align: $text-center;
-    }
-    .button{
-        text-align: $text-center;
-    }
+color: $color-textblack;
+margin-bottom: $margin-bottom;
+background: $backgroundwhite; 
+width: $width;
+text-align: $text-left;
+width: $width;
+font-size: $font-size;
+@mixin rounded-corner-radius {
+$rounded-corner-radius: 4px; 
+-webkit-border-radius: $rounded-corner-radius; 
+-moz-border-radius: $rounded-corner-radius; 
+-ms-border-radius: $rounded-corner-radius; 
+border-radius: $rounded-corner-radius;
+} 
+.but
+.moove{
+@include rounded-corner-radius;
+
+margin-top: $margin-top;
+margin-left: $margin-left;
+} 
+.text-center{
+margin-top: $margin-top;
+text-align: $text-center;
+}
+.button{
+text-align: $text-center;
+}
 }
 
 .album{
-    background-color: $backgroundblack;
-    .color-text{
-        color: $color-text;
-    }
-    .under2{
-        float: left;
-        
-    }
-    .title{
-        margin-right: $margin-right;
-        float: right;
-        
-    }
-    .alboum{
-        margin-top: $margin-top;
-    }
-    
-    .title2{
-        float: left;
-        margin-left: $margin-left;
-        text-align: $text-center;
-        
-    }
-    .around{
-        clear: both;
-    }
+background-color: $backgroundblack;
+.color-text{
+color: $color-text;
+}
+.under2{
+float: left;
+
+}
+.title{
+margin-right: $margin-right;
+float: right;
+
+}
+.alboum{
+margin-top: $margin-top;
+}
+
+.title2{
+@extend .under2;
+margin-left: $margin-left;
+text-align: $text-center;
+
+}
+.around{
+clear: both;
+}
 }
 
 
 .clip{
-    color: $color-text;
-    .top{
-        margin-top: $margin-top;
-    }
+color: $color-text;
+.top{
+margin-top: $margin-top;
+}
 }
 
 
-
 a{
-     color:#ccc;
-     text-shadow:0 -1px 0 black;                
+color:#ccc;
+text-shadow:0 -1px 0 black;                
 
-    &:hover,&:focus{
-     background:rgba(0,0,0,.0);
-     box-shadow:0 1px 0 rgba(255,255,255,.4);
-    }
+&:hover,&:focus{
+background:rgba(0,0,0,.0);
+box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
 
-    & span{
-     position:absolute;                
-    }
+& span{
+position:absolute;                
+}
 
-    a span{
-     
-     margin-top:23px;
-     margin-left:-35px;
-    }
+a span{
 
-    a span{
-     
-     color: #09c;
-     background: rgba(0,0,0,.9); //change le background du text
-     padding: 15px;
-     border-radius: 3px;
-     box-shadow: 0 0 2px rgba(0,0,0,.5);
-    }
+margin-top:23px;
+margin-left:-35px;
+}
 
-    a span{
-     
-     transform:scale(0) rotate(-12deg);
-    }
+a span{
 
-    a:hover span, a:focus span{
-     transform:scale(1) rotate(0);        
-    }
+color: #09c;
+background: rgba(0,0,0,.9); //change le background du text
+padding: 15px;
+border-radius: 3px;
+box-shadow: 0 0 2px rgba(0,0,0,.5);
+}
 
-    a span{
-     
-     transition:all .25s;
-    }
+a span{
 
-    a span{
-     
-     opacity:0;
-    }
-    a:hover span, a:focus span{
-     
-     opacity:1;
-    }
+transform:scale(0) rotate(-12deg);
+}
+
+a:hover span, a:focus span{
+transform:scale(1) rotate(0);        
+}
+
+a span{
+
+transition:all .25s;
+}
+
+a span{
+
+opacity:0;
+}
+a:hover span, a:focus span{
+
+opacity:1;
+}
 }
